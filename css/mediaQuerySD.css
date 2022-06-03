@@ -1,0 +1,319 @@
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .nav__container{
+        display: flex;
+        height: 10%;
+        width: 92%;
+        margin: 0 auto;
+        justify-content: space-between; /* Espacio entre cada item/contenido*/
+        align-items: center; /* alínea los items al centro */
+        position: fixed;
+        z-index: 9999;
+        
+        
+    }
+
+    .nav__label{
+        display: block; /*Se vuelve bloque el icono del menú, incluyendolo*/
+        cursor: pointer; /*Cambia el estilo del puntero, dando sensación para clickear.*/
+        /* position: relative;
+        z-index: 10000; */
+    }
+
+    .nav__menu{
+        position: fixed;  /*Ayuda a arreglar los elementos dentro de nav__menu debo investigar más y diferencia*/
+        top: 25px;
+        bottom: 0;
+        background: #508ce1;
+        width: 101%;
+        left: 0%;
+        display: flex;
+        justify-content: normal;       
+        flex-direction: column;
+        align-items:center;
+        clip-path: circle(0 at center);
+        transition: clip-path .5s ease-in-out;
+        border: 10px solid #000;
+        padding: 0;
+        
+    }
+    
+    /*------ HEADER --------------------------------------------------------------------------------------------------------------------- */
+
+     
+    .header__image{
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-image: url(./images/Group99.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 94%;
+        background-position: center;
+    
+    }
+
+
+    .header__img {
+        margin-top: -8px;
+        width: 35%;
+        z-index: 100;
+      
+    }
+
+    /* .header__vector1 {
+        position: absolute;
+        width: 104%;
+        height: 31%;
+      
+    } */
+
+
+    /* ---------------------------------------------------------------END HEADER---------------------------------------------------------------- */
+
+
+    /* -------------------------------------------------------------START SECTION_1------------------------------------------------------------- */
+
+
+    .section__1 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        position: relative;
+        z-index: 300;
+        
+    }
+
+
+    .section__1, h2, h1, .redes{
+        padding: 0 auto;
+        text-align: center;
+    }
+
+    .section__1 h1{
+        padding-bottom: 0px;
+        width: 20rem;
+    }
+
+
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .redes__image{
+        margin: 0 10px;
+    }
+
+    .redes__image .r__img{
+        height: 45px
+    }
+
+    .section__1 .h2, .r__img{
+        color: #ADADAD;
+    }
+
+    /* -------------------------------------------------------------END SECTION_1----------------------------------------------------------- */
+
+
+
+    /* -------------------------------------------------------------VECTOR2__IMG------------------------------------------------------------ */
+    
+    .vector2__img{
+    
+        position: relative;
+        height: 13rem;
+        width: 100%;
+        bottom: -3rem;
+    }
+    
+    .v__img{
+        position: absolute;
+        top: -95%;
+        bottom: 0%;
+        left: -2%;
+        right: 0%;
+        width: 102%;
+    }
+
+    /* -------------------------------------------------------------VECTOR2__IMG------------------------------------------------------------ */
+
+
+    /* -------------------------------------------------------------START SECTION_2--------------------------------------------------------- */
+
+    .section__2{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 12%;
+        height: 14rem;
+        position: relative;
+        z-index: 300;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .section__2 h3{
+        font-size: 2rem;
+        margin-bottom: 10%;
+    }
+    
+    .section__2 p{
+        margin: 0 0;
+        /* width: 0; */
+        padding: 0px 10px;
+    }
+    
+    
+    /*-------------------------------------------------------------START SECTION_3------------------------------------------------------------- */
+    
+    .vector__circle1 {
+        position: absolute;
+        height: 27%;
+        width: 11%;
+        left: 89%;
+        background-image: url(./images/Group\ 97.svg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+        color: #000;
+        bottom: 86%;
+        /* background-position-x: right; */
+    }
+    
+   .section__3 {
+       
+        font-size: 1rem;
+        height: 38rem;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 300;
+    }
+
+    .s3__container__flex {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .s3__img {
+        background: #1a1615;
+        border-radius: 70px;
+        padding: 11%;
+    }
+    .s3__card p {
+        margin-top: 5%;
+    }
+      
+
+    .text_img_flex {
+        width: 48%;
+        margin-left: 10%;
+    }
+
+    .flexbox__1 {
+        width: 0%;
+    }
+
+    .flexbox__2 {
+        width: 0%;
+        align-items: center;
+    }
+
+    .section__3 h3 {
+        font-size: 2rem;
+        margin-left: 0%;
+        font-weight: normal;
+        padding: 0 5%;
+        text-align: revert-layer;
+    }
+
+
+ /*---------------------------------------------------------------END SECTION_3------------------------------------------------------------- */
+ 
+ 
+ /*-------------------------------------------------------------START SECTION_4------------------------------------------------------------- */
+
+ .section__4 {
+	margin-top: 5%;
+}
+    
+ .section__4 h3 {
+        text-align: start;
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+
+
+ .div__flex {
+    margin-left: 5%;
+  }
+
+ /*---------------------------------------------------------------END SECTION_4------------------------------------------------------------- */
+
+
+ /*-------------------------------------------------------------START SECTION_5------------------------------------------------------------- */
+
+ .section__5 {
+	    position: relative;
+    }
+  
+ .section__5 h3 {
+        text-align: start;
+        font-size: 2rem;
+        margin-bottom: 50px;
+        margin-left: 5%;
+    }
+
+  .vector__circle2 {
+        position: absolute;
+        height: 24%;
+        width: 11%;
+        /* left: 89%; */
+        background-image: url(./images/Group\ 97.svg);
+        background-size: 155%;
+        background-repeat: no-repeat;
+        color: #000;
+        bottom: 86%;
+        background-position-x: right;
+    }      
+
+    .s5__img {
+        width: 10rem;
+      }
+
+ /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */
+
+ /*-------------------------------------------------------------START SECTION_6------------------------------------------------------------- */
+
+ .s6__container__flex {
+        justify-content: space-around;
+    }
+
+
+ .section__6 h3 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .s6__div__image {
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 30rem;
+        height: auto;
+    }
+
+
+    /* FOOTER */
+    footer p{
+        margin: 5% 0;
+    }
+
+}
