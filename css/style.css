@@ -23,43 +23,27 @@ body{
     color:#000
 }
 
-.nav__container{
+.nav__container {
     display: flex;
-    height: 10%;
-    width: 92%;
-    margin: 0 auto;
-    justify-content: space-between; /* Espacio entre cada item/contenido*/
-    align-items: center; /* alínea los items al centro*/
+    height: 83%;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    align-items: normal;
     /* position: fixed; */
-
-    
-    
 }
 
 
-.nav__menu{
-    /* display: grid;
-    grid-auto-flow: column;
-    gap: 3em;
-    margin-top: 80px;
-    padding-left: 7rem; */
-    display: flex;
-    grid-auto-flow: column;
-    gap: 0;
-    margin-top: 80px;
-    padding-left: 0;
-    width: 100%;
-    justify-content: space-evenly;
-    position: fixed;
-    z-index: 1000;
-    background: black;
-    padding: 5% 0;
-        
-        
-    
-    
-    
-
+.nav__menu {
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	width: 100%;
+	justify-content: space-evenly;
+	position: fixed;
+	z-index: 1000;
+	background: black;
+	padding: 1rem 0;
 }
 
 
@@ -116,7 +100,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-image: url(./images/Group99.svg);
+    background-image: url(../images/Group\ 99.svg);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: 100%;

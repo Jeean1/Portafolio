@@ -46,6 +46,14 @@
         padding: 0;
         
     }
+
+    .nav__item {
+        color: #fff;
+        text-decoration: none;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        /* transition: clip-path .3; */
+        margin: 1rem;
+    }
     
     /*------ HEADER --------------------------------------------------------------------------------------------------------------------- */
 
@@ -55,7 +63,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-image: url(./images/Group99.svg);
+        background-image: url(../images/Group\ 99.svg);
         position: relative;
         background-repeat: no-repeat;
         background-size: 94%;
@@ -187,7 +195,7 @@
         height: 24%;
         width: 11%;
         left: 89%;
-        background-image: url(./images/Group\ 97.svg);
+        background-image: url(../images/Group\ 97.svg);
         background-size: 155%;
         background-repeat: no-repeat;
         color: #000;
@@ -279,21 +287,29 @@
         height: 24%;
         width: 11%;
         /* left: 89%; */
-        background-image: url(./images/Group\ 97.svg);
+        background-image: url(../images/Group\ 97.svg);
         background-size: 155%;
         background-repeat: no-repeat;
         color: #000;
         bottom: 86%;
         background-position-x: right;
-    }      
+    }
+
+    .s5__div__img{
+        text-align: center;
+    }
 
   .s5__img {
-	 width: 10rem;
+	 width: 20rem;
     }
 
  /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */
 
  /*-------------------------------------------------------------START SECTION_6------------------------------------------------------------- */
+
+    .section__6{
+        position: relative;
+    }
 
  .s6__container__flex {
         justify-content: space-around;
