@@ -22,10 +22,10 @@
 
     .nav__menu{
         position: fixed;  /*Ayuda a arreglar los elementos dentro de nav__menu debo investigar más y diferencia*/
-        top: 25px;
+        top: 10%;
         bottom: 0;
         background: #508ce1;
-        width: 101%;
+        width: 100%;
         left: 0%;
         display: flex;
         justify-content: normal;       
@@ -36,6 +36,14 @@
         border: 10px solid #000;
         padding: 0;
         
+    }
+
+    .nav__item {
+        color: #fff;
+        text-decoration: none;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        /* transition: clip-path .3; */
+        margin: 1rem;
     }
     
     /*------ HEADER --------------------------------------------------------------------------------------------------------------------- */
@@ -163,11 +171,13 @@
         margin-bottom: 10%;
     }
     
-    .section__2 p{
-        margin: 0 0;
-        /* width: 0; */
-        padding: 0px 10px;
-    }
+    .section__2 .s2__div__p p{
+        text-align: justify;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+      }
     
     
     /*-------------------------------------------------------------START SECTION_3------------------------------------------------------------- */
@@ -261,32 +271,36 @@
  /*-------------------------------------------------------------START SECTION_5------------------------------------------------------------- */
 
  .section__5 {
-	    position: relative;
-    }
-  
- .section__5 h3 {
-        text-align: start;
-        font-size: 2rem;
-        margin-bottom: 50px;
-        margin-left: 5%;
-    }
+    position: relative;
+}
 
-  .vector__circle2 {
-        position: absolute;
-        height: 24%;
-        width: 11%;
-        /* left: 89%; */
-        background-image: url(./images/Group\ 97.svg);
-        background-size: 155%;
-        background-repeat: no-repeat;
-        color: #000;
-        bottom: 86%;
-        background-position-x: right;
-    }      
+.section__5 h3 {
+    text-align: start;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
 
-    .s5__img {
-        width: 10rem;
-      }
+.vector__circle2 {
+    position: absolute;
+    height: 24%;
+    width: 11%;
+    /* left: 89%; */
+    background-image: url(../images/Group\ 97.svg);
+    background-size: 155%;
+    background-repeat: no-repeat;
+    color: #000;
+    bottom: 86%;
+    background-position-x: right;
+}
+
+.s5__div__img{
+    text-align: center;
+}
+
+.s5__img {
+ width: 20rem;
+}
 
  /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */
 

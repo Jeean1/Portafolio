@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 400px) and (max-width: 576px) {  /*Sí la pantalla llega ser menor a 700px, nav__label & nav__menu cambian completamente*/
     /* 770 */
     .nav__container{
@@ -180,12 +172,13 @@
         margin-bottom: 10%;
     }
     
-    .section__2 p{
-        margin: 0 1rem;
-        text-align: center;
-        width: 30rem;
+    .section__2 .s2__div__p p {
+        text-align: justify;
+        width: auto;
+        padding: 0;
+        margin: 0;
         font-size: 1rem;
-    }
+      }
     
     
     /*-------------------------------------------------------------START SECTION_3------------------------------------------------------------- */
@@ -350,9 +343,5 @@
 .text-weigth{
     font-size: 120%
                         
-    
-}
-
-@media (min-width: 577px) {
     
 }
