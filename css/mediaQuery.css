@@ -23,10 +23,10 @@
 
     .nav__menu{
         position: fixed;  /*Ayuda a arreglar los elementos dentro de nav__menu debo investigar más y diferencia*/
-        top: 25px;
+        top: 8%;
         bottom: 0;
         background: #508ce1;
-        width: 101%;
+        width: 100%;
         left: 0%;
         display: flex;
         justify-content: normal;       
@@ -169,7 +169,7 @@
     
     .section__2 h3{
         font-size: 2rem;
-        margin-bottom: 10%;
+        margin-bottom: 0;
     }
     
     .section__2 .s2__div__p p {
