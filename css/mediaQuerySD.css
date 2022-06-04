@@ -54,7 +54,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-image: url(./images/Group99.svg);
+        background-image: url(../images/Group\ 99.svg);
         position: relative;
         background-repeat: no-repeat;
         background-size: 94%;
@@ -187,12 +187,12 @@
         height: 27%;
         width: 11%;
         left: 89%;
-        background-image: url(./images/Group\ 97.svg);
+        background-image: url(../images/Group\ 97.svg);
         background-size: 130%;
         background-repeat: no-repeat;
         color: #000;
         bottom: 86%;
-        /* background-position-x: right; */
+        background-position-x: unset;
     }
     
    .section__3 {
@@ -285,12 +285,12 @@
     position: absolute;
     height: 24%;
     width: 11%;
-    /* left: 89%; */
+    left: 0%;
     background-image: url(../images/Group\ 97.svg);
-    background-size: 155%;
+    background-size: 120%;
     background-repeat: no-repeat;
     color: #000;
-    bottom: 86%;
+    bottom: 82%;
     background-position-x: right;
 }
 
@@ -299,7 +299,12 @@
 }
 
 .s5__img {
- width: 20rem;
+ width: 90%;
+}
+
+.p__image{
+    width: 100%;
+    padding: 10px 0px;
 }
 
  /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */

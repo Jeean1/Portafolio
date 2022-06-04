@@ -193,7 +193,7 @@
         background-repeat: no-repeat;
         color: #000;
         bottom: 86%;
-        /* background-position-x: right; */
+        background-position-x: unset;
     }
     
    .section__3 {
@@ -279,12 +279,12 @@
         position: absolute;
         height: 24%;
         width: 11%;
-        /* left: 89%; */
+        left: 0%;
         background-image: url(../images/Group\ 97.svg);
         background-size: 155%;
         background-repeat: no-repeat;
         color: #000;
-        bottom: 86%;
+        bottom: 82%;
         background-position-x: right;
     }
 
@@ -293,7 +293,8 @@
     }
 
   .s5__img {
-	 width: 20rem;
+	 width: 90%;
+     margin: 0;
     }
 
  /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */

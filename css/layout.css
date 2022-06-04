@@ -155,7 +155,7 @@
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .col-md-12 {
         width: 100%;
         padding: 1rem;

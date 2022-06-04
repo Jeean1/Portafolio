@@ -1,4 +1,7 @@
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
     .nav{
         background-color: #000;
         height: 80px;
@@ -158,7 +161,7 @@
     .vector2__img{
     
         position: relative;
-        height: 13rem;
+        height: 16rem;
         width: 100%;
       
     }
@@ -194,6 +197,8 @@
         font-size: 2rem;
         margin-bottom: 10%;
     }
+
+
     
     .section__2 p{
         margin: 0 2rem;
@@ -305,16 +310,16 @@
     }
 
   .vector__circle2 {
-    position: absolute;
-    height: 42%;
-    width: 11%;
-    left: 0%;
-    background-image: url(../images/Group\ 97.svg);
-    background-size: 120%;
-    background-repeat: no-repeat;
-    color: #000;
-    bottom: 86%;
-    background-position-x: right;
+        position: absolute;
+        height: 44%;
+        width: 11%;
+        left: 0%;
+        background-image: url(../images/Group\ 97.svg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        color: #000;
+        bottom: 86%;
+        background-position-x: right;
     }
     
     .s5__div__img{
