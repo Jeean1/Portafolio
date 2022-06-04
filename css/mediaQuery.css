@@ -135,7 +135,7 @@
     .vector2__img{
     
         position: relative;
-        height: 13rem;
+        height: 223px;
         width: 100%;
         bottom: -3rem;
     }
@@ -192,7 +192,7 @@
         background-size: 155%;
         background-repeat: no-repeat;
         color: #000;
-        bottom: 86%;
+        bottom: 80%;
         background-position-x: unset;
     }
     
@@ -266,6 +266,7 @@
 
  .section__5 {
 	    position: relative;
+        margin-top: 10%;
     }
   
  .section__5 h3 {
@@ -277,14 +278,14 @@
 
   .vector__circle2 {
         position: absolute;
-        height: 24%;
+        height: 36%;
         width: 11%;
         left: 0%;
         background-image: url(../images/Group\ 97.svg);
-        background-size: 155%;
+        background-size: 147%;
         background-repeat: no-repeat;
         color: #000;
-        bottom: 82%;
+        bottom: 69%;
         background-position-x: right;
     }
 
@@ -295,6 +296,11 @@
   .s5__img {
 	 width: 90%;
      margin: 0;
+    }
+
+    .p__image{
+        width: 100%;
+        padding: 10px 0px;
     }
 
  /*---------------------------------------------------------------END SECTION_5------------------------------------------------------------- */
