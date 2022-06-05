@@ -341,12 +341,12 @@
 
  /*-------------------------------------------------------------START SECTION_6------------------------------------------------------------- */
 
- .s6__container__flex {
+    .s6__container__flex {
         justify-content: space-around;
     }
 
 
- .section__6 h3 {
+    .section__6 h3 {
         text-align: center;
         font-size: 2rem;
         margin-bottom: 3rem;
@@ -357,6 +357,10 @@
         border: 1px solid white;
         border-radius: 30rem;
         height: auto;
+    }
+
+    .section__6 .s6__container__flex .card p{
+        font-size: 100%;
     }
 
 
