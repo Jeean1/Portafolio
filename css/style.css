@@ -111,7 +111,12 @@ body{
 
 .header__img{
     margin-top: 70px;
-    width: 24%;
+    width: 35%;
+    border-radius: 100%;
+    /* position: relative;
+    top: 10%;
+    right: 2%; */
+  
     /* z-index: 100; */
 }
 
@@ -309,8 +314,9 @@ color: #000;
 
 .s3__img {
     background: #1a1615;
-    border-radius: 70px;
+    border-radius: 100px;
     padding: 30px;
+    width: 50%;
     
 }
 

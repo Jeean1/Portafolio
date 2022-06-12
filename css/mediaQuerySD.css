@@ -211,8 +211,9 @@
     
     .s3__img {
         background: #1a1615;
-        border-radius: 70px;
+        border-radius: 100px;
         padding: 11%;
+        width: 160px;
     }
     .s3__card p {
         margin-top: 5%;
